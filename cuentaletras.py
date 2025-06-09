@@ -10,5 +10,5 @@ longDelTxt= len(texto)
 
 longSinEsp= longDelTxt - espEnBco
 
-print(f"La longitud del texto que insertaste es de: {longSinEsp} y {espEnBco} espacios en blanco")
+print(f"La longitud del texto que insertaste es de: {longSinEsp} caracteres mas {espEnBco} espacios en blanco")
 print("_" * 80)
