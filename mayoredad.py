@@ -15,3 +15,5 @@ if edad >= 18:
     print(f"nuestra cartelera es: {cartmayores}")
 else:
     print(f"Nuestra cartelera es: {cartmenores}")
+
+print("*" * 80)
