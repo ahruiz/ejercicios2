@@ -15,5 +15,10 @@ else:
 
 resta = num2 - num1
 
-print(f"La resta de los numeros proporcionados es: {resta}")
+if resta > 0:
+    print(f"El resultado es: {resta} positivo")
+elif resta < 0:
+    print(f"El resultado es: {resta} negativo")
+else:
+    print(f"El resultado es: {resta} cero")
 print("-" * 80)
