@@ -8,10 +8,10 @@ peso = float(input("Introduce tu peso en Kgs           : ")) # puede que alguien
 estatura = float(input("Introduce tu estatura en metros: "))  # para que sea en metros tiene que usar decimales
 
 if estatura > 2.2:       #es muy dificil que una persona mida mas de 2.2 mts
-    estatura = estatura / 100
-    imc = round(peso / (estatura * estatura),2)  # si por error se captura en cent...hacemos la conversion a metros
+    estatura = estatura / 100  # si por error se captura en cent...hacemos la conversion a metros
+    imc = round(peso / (estatura * estatura),2) # redondeamos el resultado a 2 decimales 
 else:
-    imc = round(peso / (estatura * estatura),2)
+    imc = round(peso / (estatura * estatura),2) # redondeamos el resultado a 2 decimales
 
 print(" IMC menor a 16: DESNUTRICION")
 print(" IMC 17 a 20   : BAJO PESO")
