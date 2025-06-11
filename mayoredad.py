@@ -20,10 +20,13 @@ edad = int(input("Introduce tu edad para mostrarte la cartelera: ")) # se pide a
 if edad < 18:
     for clave, valor in cartelara.items():
         if valor == "A": 
+            clasif = "A: Toda la Familia"
             print(clave) #imprime solo las carteleras con clasificacion A
 else:
     for clave,valor in cartelara.items():
-        print(clave) #imprime todos los valores
+        clasif = "A: Toda la Familia y R: Adultos"
+        print(clave ) #imprime todos los valores
 #ESTAS SENTENCIAS print... ARROJAN LOS DATOS SIN EL FORMATO DE DICCIONARIO
 
+print(" son clasificacion: " + clasif)
 print("*" * 80)
