@@ -23,7 +23,7 @@ if edad < 18:
             print(clave) #imprime solo las carteleras con clasificacion A
 else:
     for clave,valor in cartelara.items():
-        print(clave)
+        print(clave) #imprime todos los valores
 #ESTAS SENTENCIAS print... ARROJAN LOS DATOS SIN EL FORMATO DE DICCIONARIO
 
 print("*" * 80)
