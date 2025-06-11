@@ -2,7 +2,7 @@
 import random    #funcion para crear nums aleatoriamente
 
 print("-" * 80) # linea de separacion en pantalla
-print("Se genera num aleatorio y el usuario intenta adivinarlo")    # explicacion de la funcion del codigo
+print("Se genera num aleatorio OCULTO y el usuario intenta adivinarlo")    # explicacion de la funcion del codigo
 
 numAleat = random.randint(1,10)   # se genera un num aleatorio escondido
 
